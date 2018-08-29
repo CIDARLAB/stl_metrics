@@ -1,12 +1,12 @@
-target/
-pom.xml.tag
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-pom.xml.next
-release.properties
-dependency-reduced-pom.xml
-buildNumber.properties
-.mvn/timing.properties
+symmetricDistance/target/
+symmetricDistance/pom.xml.tag
+symmetricDistance/pom.xml.releaseBackup
+symmetricDistance/pom.xml.versionsBackup
+symmetricDistance/pom.xml.next
+symmetricDistance/release.properties
+symmetricDistance/dependency-reduced-pom.xml
+symmetricDistance/buildNumber.properties
+symmetricDistance/.mvn/timing.properties
 
 # Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
 !/.mvn/wrapper/maven-wrapper.jar

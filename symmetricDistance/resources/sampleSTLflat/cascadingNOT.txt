@@ -1,0 +1,8 @@
+phi1(x,y) >>_m1 phi2(x,y)
+
+phi1 = ((G[0,10] x <= 8 && F[0,6]G[0,4] y > 6) || (G[0,10] x > 9 && F[0,6]G[0,4] y <= 3))
+phi2 = ((G[0,10] x <= 5 && F[0,6]G[0,4] y > 4) || (G[0,10] x > 6 && F[0,6]G[0,4] y <= 2.5))
+
+m1 { x@left: x, y@left: a, x@right: a, y@right: y }
+io {x: x, y:y}
+limits [{x : {max:10,min:0}}, {y : {max:10,min:0}}]
